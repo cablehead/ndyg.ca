@@ -10,7 +10,6 @@
     <meta property="og:title" content="@ndyg" />
 
     <link href="https://cdn.skypack.dev/sanitize.css" rel="stylesheet" />
-    <link href="https://unpkg.com/sanitize.css/forms.css" rel="stylesheet" />
 
     <script>
       const ONE_HOUR = 3600000;
@@ -50,6 +49,17 @@
       *::before,
       *::after {
         box-sizing: border-box;
+      }
+
+      button,
+      input,
+      select,
+      textarea {
+        color: inherit;
+        font: inherit;
+        letter-spacing: inherit;
+        background-color: transparent;
+        border: 1px solid WindowFrame;
       }
 
       body {
