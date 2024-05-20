@@ -3,20 +3,22 @@
     <a href="{{ planting.url }}">{{ planting.name }}</a>
     <em>Status: {{ planting.status | safe }}</em>
     -{{ planting.description | safe }} {% if planting.image %}
-    <img style="margin-top: 1em;" src="./{{ planting.image.path }}" />
-    {% endif %}
-  </div>
-  {% for planting in planting.sub %}
-  <div class="sub-planting">
-    <div>
-      {% if planting.image %}
-      <img style="object-fit: cover; width: 100%; height: 100%" src="{{ planting.image.path }}" />
-      {% endif %}
-    </div>
-    <div>
-      <a href="{{ planting.url }}">{{ planting.name }}</a>
-      <em>Status: {{ planting.status }}</em>
-      -{{ planting.description | safe }}
+    <img style="margin-top: 1em" src="./{{ planting.image.path }}" />
+    {% endif %} {% for planting in planting.sub %}
+    <div class="sub-planting">
+      <div>
+        {% if planting.image %}
+        <img
+          style="object-fit: cover; width: 100%; height: 100%"
+          src="{{ planting.image.path }}"
+        />
+        {% endif %}
+      </div>
+      <div>
+        <a href="{{ planting.url }}">{{ planting.name }}</a>
+        <em>Status: {{ planting.status | safe }}</em>
+        -{{ planting.description | safe }}
+      </div>
     </div>
   </div>
   {% endfor %}
