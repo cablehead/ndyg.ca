@@ -1,0 +1,1 @@
+cat planting.json | minijinja-cli -f json planting_tpl.html -

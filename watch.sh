@@ -1,0 +1,1 @@
+watchexec -c -- './test.sh | bat -p -l js'
