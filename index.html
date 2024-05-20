@@ -60,6 +60,10 @@
         max-width: 100%;
       }
 
+      img {
+        border-radius: 5px;
+      }
+
       button,
       input,
       select,
@@ -132,12 +136,12 @@
         color: var(--headline-color);
       }
       p {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
       }
     </style>
   </head>
 
-  <body style="border: 1px solid green">
+  <body>
     <div style="padding: 1rem; display: flex; flex-direction: row; justify-content: space-between">
       <h2><span style="padding-right: 0.2em">@</span><a href="/">ndyg</a></h2>
 
@@ -262,15 +266,31 @@
         }
 
         .planting {
+          /*
           border: 1px dotted var(--shadow-color);
           margin: 0 -0.5rem;
           border-radius: 0.4em;
           padding: 0.5rem;
+					*/
+          display: flex;
+          flex-direction: column;
+          gap: 1em;
         }
 
         .sub-planting {
-          margin-top: 0.5rem;
-          margin-left: 25%;
+          display: flex;
+          align-items: stretch;
+          gap: 1em;
+        }
+
+        .sub-planting > :nth-child(1) {
+          align-self: stretch;
+          flex: 1;
+        }
+
+        .sub-planting > :nth-child(2) {
+          align-self: stretch;
+          flex: 1.5;
         }
       </style>
 
@@ -315,11 +335,19 @@
               <img src="./stacks.png" />
 
               <div class="sub-planting">
-                <a href="./projects/enchanted-animal-rescue"
-                  ><code>Enchanted Animal Rescue</code></a
-                >
-                <em>Status: WIP [██.... 20%]</em>
-                -Rescue forest animals while exercising your clipboard manager skills
+                <div>
+                  <img
+                    style="object-fit: cover; width: 100%; height: auto"
+                    src="./enchanted-animal-rescue.png"
+                  />
+                </div>
+                <div>
+                  <a href="./projects/enchanted-animal-rescue"
+                    ><code>Enchanted Animal Rescue</code></a
+                  >
+                  <em>Status: WIP [██.... 20%]</em>
+                  - Rescue forest animals while exercising your clipboard manager skills
+                </div>
               </div>
             </div>
 
