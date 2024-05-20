@@ -1,10 +1,14 @@
 <div class="planting">
-  <div>
-    <a href="{{ planting.url }}">{{ planting.name }}</a>
-    <em>Status: {{ planting.status | safe }}</em>
-    -{{ planting.description | safe }} {% if planting.image %}
-    <img style="margin-top: 1em" src="./{{ planting.image.path }}" />
-    {% endif %} {% for planting in planting.sub %}
+  <div style="display: flex; flex-direction: column; gap: 1em;">
+    <div>
+      <a href="{{ planting.url }}">{{ planting.name }}</a>
+      <em>Status: {{ planting.status | safe }}</em>
+      -{{ planting.description | safe }} {% if planting.image %}
+      <img style="margin-top: 1em" src="./{{ planting.image.path }}" />
+      {% endif %}
+    </div>
+
+    {% for planting in planting.sub %}
     <div class="sub-planting">
       <div>
         {% if planting.image %}
@@ -20,6 +24,6 @@
         -{{ planting.description | safe }}
       </div>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
 </div>
