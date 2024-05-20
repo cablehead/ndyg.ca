@@ -3,9 +3,7 @@ plantings:
 - name: xs
   url: https://github.com/cablehead/xs
   status: 'WIP [<span style="color: green">██</span>.... 20%]'
-  description: An event stream store for personal, local-first use. Kinda like the
-
-
+  description: An event stream store for personal, local-first use. Kinda like the <a href="https://sqlite.org/cli.html">sqlite3 cli</a>, but specializing in the <a href="https://martinfowler.com/eaaDev/EventSourcing.html">event sourcing</a> use case
 
 - name: '"Small Tools"'
   url: https://gist.github.com/cablehead/efbe67fb90b8dde21a7c885f91f3f75d
