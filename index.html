@@ -379,8 +379,7 @@
                     -What would it look like if we just used small tools, everywhere?
                   </div>
                 </div>
-
-                {% include 'planting_tpl.html' %}
+                {% for planting in plantings %} {% include 'planting_tpl.html' %} {% endfor %}
               </div>
             </div>
 

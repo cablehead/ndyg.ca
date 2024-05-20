@@ -1,7 +1,7 @@
 <div class="planting">
   <div>
-    <a href="{{ url }}">{{ name }}</a>
-    <em>Status: {{ status }}</em>
-    -{{ description }}
+    <a href="{{ planting.url }}">{{ planting.name }}</a>
+    <em>Status: {{ planting.status | safe }}</em>
+    -{{ planting.description }}
   </div>
 </div>

@@ -23,9 +23,7 @@ P=${P%/}
 
 if [[ "$METHOD" == "GET" && "$P" == "${ROUTE_PATH}" ]]; then
     meta_out headers="$(jo "content-type"="text/html")"
-    cat index.html
-    # jo request="$META" | tera --env --env-key ENV -i --template html/index.html --stdin
-    exit
+    exec cat planting.json | minijinja-cli -f json ./index.html -
 fi
 
 meta_out status=404 headers="$(jo "content-type"="text/html")"
