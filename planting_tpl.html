@@ -2,11 +2,11 @@
   <div>
     <a href="{{ planting.url }}">{{ planting.name }}</a>
     <em>Status: {{ planting.status | safe }}</em>
-    -{{ planting.description }}
+    -{{ planting.description }} {% if planting.image %}
+    <img style="border: 1px solid green" src="./{{ planting.image.path }}" />
+    {% endif %}
   </div>
-  {% if planting.image %}
-  <img src="./{{ planting.image.path }}" />
-  {% endif %} {% for planting in planting.sub %}
+  {% for planting in planting.sub %}
   <div class="sub-planting">
     <div>
       {% if planting.image %}

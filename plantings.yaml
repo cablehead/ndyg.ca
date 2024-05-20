@@ -1,0 +1,29 @@
+plantings:
+- name: '"Small Tools"'
+  url: https://gist.github.com/cablehead/efbe67fb90b8dde21a7c885f91f3f75d
+  status: <a href="https://x.com/jessmartin/status/1772638111534658040">forever quest</a>
+  description: What would it look like if we just used small tools, everywhere?
+  sub:
+  - name: chat-app
+    url: ./projects/chat-app
+    status: Experiment
+    description: How would you build a service exclusively with small tools, where the unit of tool is a CLI command, and Bash is the coordination language?
+    image:
+      path: ./chat-app.png
+- name: nushell
+  url: https://www.nushell.sh
+  status: Tagging along!
+  description: A better way to compose Small Tools
+  sub:
+  - name: nu_plugin_from_sse
+    url: https://github.com/cablehead/nu_plugin_from_sse
+    status: Useful
+    description: Nu plugin to parse a server sent events stream to structured records
+  - name: nu_plugin_from_http
+    url: https://github.com/cablehead/nu_plugin_http
+    status: Sketching
+    description: Nu http commands, as a plugin + `http serve ./sock { .. }`
+  - name: discord.nu
+    url: https://github.com/cablehead/discord.nu
+    status: Sketching
+    description: Nushell discord client for bots and things
