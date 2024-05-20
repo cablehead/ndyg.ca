@@ -1,4 +1,17 @@
 plantings:
+- name: Stacks
+  url: https://stacks.cross.stream
+  status: Useful
+  description: A humble clipboard manager aspiring to elevate the depth of our conversations
+  image:
+    path: ./stacks.png
+  sub:
+  - name: Enchanted Animal Rescue
+    url: ./projects/enchanted-animal-rescue
+    status: 'WIP [<span style="color: green">██</span>.... 20%]'
+    description: Rescue forest animals while exercising your clipboard manager skills
+    image:
+      path: ./enchanted-animal-rescue.png
 
 - name: xs
   url: https://github.com/cablehead/xs
