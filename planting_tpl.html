@@ -10,10 +10,7 @@
   <div class="sub-planting">
     <div>
       {% if planting.image %}
-      <img
-        style="object-fit: cover; width: 100%; height: 100%"
-        src="./enchanted-animal-rescue.png"
-      />
+      <img style="object-fit: cover; width: 100%; height: 100%" src="{{ planting.image.path }}" />
       {% endif %}
     </div>
     <div>

@@ -2,3 +2,11 @@ name: '"Small Tools"'
 url: https://gist.github.com/cablehead/efbe67fb90b8dde21a7c885f91f3f75d
 status: <a href="https://x.com/jessmartin/status/1772638111534658040">forever quest</a>
 description: What would it look like if we just used small tools, everywhere?
+
+sub:
+  - name: chat-app
+    url: ./projects/chat-app
+    status: Experiment
+    description: How would you build a service exclusively with small tools, where the unit of tool is a CLI command, and Bash is the coordination language?
+    image:
+      path: ./chat-app.png

@@ -1,6 +1,0 @@
-name: chat-app
-url: ./projects/chat-app
-status: Experiment
-description: How would you build a service exclusively with small tools, where the unit of tool is a CLI command, and Bash is the coordination language?
-image:
-  path: ./chat-app.png
