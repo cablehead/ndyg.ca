@@ -16,7 +16,7 @@
     <div>
       <a href="{{ planting.url }}">{{ planting.name }}</a>
       <em>Status: {{ planting.status }}</em>
-      -{{ planting.description }}
+      -{{ planting.description | safe }}
     </div>
   </div>
   {% endfor %}
