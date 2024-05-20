@@ -2,9 +2,19 @@ name: nushell
 url: https://www.nushell.sh
 status: Tagging along!
 description: A better way to compose Small Tools
+
 sub:
 - name: nu_plugin_from_sse
   url: https://github.com/cablehead/nu_plugin_from_sse
   status: Useful
-  description: nu plugin to parse a server sent events stream to structured records
+  description: Nu plugin to parse a server sent events stream to structured records
 
+- name: nu_plugin_from_http
+  url: https://github.com/cablehead/nu_plugin_http
+  status: Sketching
+  description: Nu http commands, as a plugin + `http serve ./sock { .. }`
+
+- name: discord.nu
+  url: https://github.com/cablehead/discord.nu
+  status: Sketching
+  description: Nushell discord client for bots and things
