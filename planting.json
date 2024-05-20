@@ -1,7 +1,6 @@
 {
-  "small_tools_url": "https://gist.github.com/cablehead/efbe67fb90b8dde21a7c885f91f3f75d",
-  "small_tools_text": "\"Small Tools\"",
-  "status_url": "https://x.com/jessmartin/status/1772638111534658040",
-  "status_text": "forever quest",
-  "question_text": "What would it look like if we just used small tools, everywhere?"
+  "name": "\"Small Tools\"",
+  "url": "https://gist.github.com/cablehead/efbe67fb90b8dde21a7c885f91f3f75d",
+  "status": "forever quest",
+  "description": "What would it look like if we just used small tools, everywhere?"
 }
