@@ -1,4 +1,12 @@
 plantings:
+
+- name: xs
+  url: https://github.com/cablehead/xs
+  status: 'WIP [<span style="color: green">██</span>.... 20%]'
+  description: An event stream store for personal, local-first use. Kinda like the
+
+
+
 - name: '"Small Tools"'
   url: https://gist.github.com/cablehead/efbe67fb90b8dde21a7c885f91f3f75d
   status: <a href="https://x.com/jessmartin/status/1772638111534658040">forever quest</a>
@@ -10,6 +18,7 @@ plantings:
     description: How would you build a service exclusively with small tools, where the unit of tool is a CLI command, and Bash is the coordination language?
     image:
       path: ./chat-app.png
+
 - name: nushell
   url: https://www.nushell.sh
   status: Tagging along!
