@@ -290,7 +290,7 @@
 
         .sub-planting > :nth-child(2) {
           align-self: stretch;
-          flex: 1.5;
+          flex: 2;
         }
       </style>
 
@@ -338,7 +338,7 @@
                 <div class="sub-planting">
                   <div>
                     <img
-                      style="object-fit: cover; width: 100%; height: auto"
+                      style="object-fit: cover; width: 100%; height: 100%"
                       src="./enchanted-animal-rescue.png"
                     />
                   </div>
@@ -365,41 +365,14 @@
                 <img src="./xs.png" />
               </div>
               <div class="planting">
-                <div class="planting">
-                  <div>
-                    <a href="https://gist.github.com/cablehead/efbe67fb90b8dde21a7c885f91f3f75d"
-                      >&quot;Small Tools&quot;</a
-                    >
-                    <em
-                      >Status:
-                      <a href="https://x.com/jessmartin/status/1772638111534658040"
-                        >forever quest</a
-                      ></em
-                    >
-                    -What would it look like if we just used small tools, everywhere?
-                  </div>
-                </div>
                 {% for planting in plantings %} {% include 'planting_tpl.html' %} {% endfor %}
               </div>
             </div>
 
             <ul>
               <li>
-                <a href="./projects/chat-app"><code>chat-app</code></a> - Experimenting with
-                composing services using shell scripts: <em>Status: Experiment</em>
-              </li>
 
-              <li>
-                <a href="https://www.nushell.sh">nushell</a> - a better way to compose Small Tools:
-                <em>Status: Tagging along!</em>
                 <ul>
-                  <li>
-                    <a href="https://github.com/cablehead/nu_plugin_from_sse"
-                      ><code>nu_plugin_from_sse</code></a
-                    >
-                    - nu plugin to parse a server sent events stream to structured records:
-                    <em>Status: Useful</em>
-                  </li>
                   <li>
                     <a href="https://github.com/cablehead/nu_plugin_http"
                       ><code>nu_plugin_from_http</code></a

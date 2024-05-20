@@ -1,0 +1,10 @@
+name: nushell
+url: https://www.nushell.sh
+status: Tagging along!
+description: A better way to compose Small Tools
+sub:
+- name: nu_plugin_from_sse
+  url: https://github.com/cablehead/nu_plugin_from_sse
+  status: Useful
+  description: nu plugin to parse a server sent events stream to structured records
+

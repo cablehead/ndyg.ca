@@ -4,4 +4,7 @@
     <em>Status: {{ planting.status | safe }}</em>
     -{{ planting.description }}
   </div>
+  {% if planting.image %}
+  <img src="./{{ planting.image.path }}" />
+  {% endif %}
 </div>
