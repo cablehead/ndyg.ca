@@ -94,10 +94,6 @@
         display: none;
       }
 
-      button {
-        cursor: pointer;
-      }
-
       a {
         color: var(--accent-paragraph-color);
         text-decoration: none;
@@ -198,18 +194,18 @@
           />
         </a>
 
-        <div>&nbsp;</div>
 
-        <button
-          style="border: 0"
-          type="button"
+	  <div
           onclick="
 					let curr = document.documentElement.getAttribute('data-theme');
 					let target = curr === 'dark' ? 'light' : 'dark';
 					document.documentElement.setAttribute('data-theme', target);
         localStorage.setItem('theme', JSON.stringify({ theme: target, expiry: Date.now() }));
 				"
-        >
+
+        style="cursor: pointer;"
+
+	  >
           <span class="d-block-light"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
@@ -248,7 +244,7 @@
               <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
               <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg
           ></span>
-        </button>
+	  </div>
       </div>
     </div>
 
