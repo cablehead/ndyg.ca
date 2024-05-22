@@ -1,3 +1,13 @@
+
+{% macro optional_link(url, content) %}
+  {% if url %}
+    <a href="{{ url }}">{{ content }}</a>
+  {% else %}
+    {{ content }}
+  {% endif %}
+{% endmacro %}
+
+
 <div class="planting">
   <div style="display: flex; flex-direction: column; gap: 1em;">
     <div>

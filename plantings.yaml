@@ -1,7 +1,7 @@
 plantings:
 - name: Stacks
-  url: https://stacks.cross.stream
-  status: Useful
+  url: https://stacks.cross.stream/releases/v0.15.6
+  status: Useful, and still sketching
   description: A humble clipboard manager aspiring to elevate the depth of our conversations
   image:
     path: ./stacks.png
@@ -49,3 +49,12 @@ plantings:
     url: https://github.com/cablehead/discord.nu
     status: Sketching
     description: Nushell discord client for bots and things
+    image:
+      path: ./discord_nu.png
+
+- name: Platform Quest
+  url: https://platform-quest.cross.stream
+  status: Tagging along with the remarkable <a href="https://github.com/BlackVegetable">@DrSpendlove</a>
+  description: Building inclusive teams and bringing the best out of people with play and humor
+  image:
+    path: ./platform-quest.png
