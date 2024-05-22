@@ -1,35 +1,28 @@
-
-{% macro optional_link(url, content) %}
-  {% if url %}
-    <a href="{{ url }}">{{ content }}</a>
-  {% else %}
-    {{ content }}
-  {% endif %}
-{% endmacro %}
-
+{% macro optional_link(url) %} {% if url %}
+<a href="{{ url }}">{{ caller() }}</a>
+{% else %}{{ caller() }}{% endif %} {% endmacro %}
 
 <div class="planting">
-  <div style="display: flex; flex-direction: column; gap: 1em;">
+  <div style="display: flex; flex-direction: column; gap: 1em">
     <div>
-      <a href="{{ planting.url }}">{{ planting.name }}</a>
+      {% call optional_link(planting.url) %}{{ planting.name }}{% endcall %}
       <em>Status: {{ planting.status | safe }}</em>
-      -{{ planting.description | safe }} {% if planting.image %}
-      <img style="margin-top: 1em" src="./{{ planting.image.path }}" />
-      {% endif %}
+      -{{ planting.description | safe }} {% if planting.image %}{% call optional_link(planting.url)
+      %}<img style="margin-top: 1em" src="./{{ planting.image.path }}" />{% endcall %} {% endif %}
     </div>
 
     {% for planting in planting.sub %}
     <div class="sub-planting">
       <div>
-        {% if planting.image %}
+        {% if planting.image %}{% call optional_link(planting.url) %}
         <img
           style="object-fit: cover; width: 100%; height: 100%"
           src="{{ planting.image.path }}"
         />
-        {% endif %}
+        {% endcall %} {% endif %}
       </div>
       <div>
-        <a href="{{ planting.url }}">{{ planting.name }}</a>
+        {% call optional_link(planting.url) %}{{ planting.name }}{% endcall %}
         <em>Status: {{ planting.status | safe }}</em>
         -{{ planting.description | safe }}
       </div>
