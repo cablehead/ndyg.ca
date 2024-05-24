@@ -25,6 +25,12 @@ plantings:
   status: <a href="https://x.com/jessmartin/status/1772638111534658040">forever quest</a>
   description: What would it look like if we just used small tools, everywhere?
   sub:
+  - name: http-sh
+    url: https://github.com/cablehead/http-sh
+    status: Sketching
+    description: attach bash scripts to a http interface
+    image:
+      path: ./http-sh.png
   - name: chat-app
     url: ./projects/chat-app
     status: Experiment
