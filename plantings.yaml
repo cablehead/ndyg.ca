@@ -27,7 +27,7 @@ plantings:
   sub:
   - name: http-sh
     url: https://github.com/cablehead/http-sh
-    status: Sketching
+    status: Somewhat useful, and still sketching
     description: attach bash scripts to a http interface
     image:
       path: ./http-sh.png
