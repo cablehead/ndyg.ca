@@ -2,8 +2,8 @@
 
 set -eu
 
+# you can export a ROUTE_PATH to place this service under a url prefix
 ROUTE_PATH=${1:-"/"}
-# we export to make it available in the tera template
 export ROUTE_PATH=${ROUTE_PATH%/}
 
 BASE="$(dirname "$0")"
