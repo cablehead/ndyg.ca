@@ -26,5 +26,10 @@ if [[ "$METHOD" == "GET" && "$P" == "${ROUTE_PATH}" ]]; then
     exec ./render.nu
 fi
 
+if [[ "$METHOD" == "GET" && "$P" == "${ROUTE_PATH}/plantings/how-to-make-a-living" ]]; then
+    meta_out headers="$(jo "content-type"="text/html")"
+    exec minijinja-cli ./how-do-you-make-a-living.html
+fi
+
 meta_out status=404 headers="$(jo "content-type"="text/html")"
 echo "Not Found:" $METHOD $P
