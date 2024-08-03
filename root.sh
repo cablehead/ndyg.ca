@@ -26,9 +26,16 @@ if [[ "$METHOD" == "GET" && "$P" == "${ROUTE_PATH}" ]]; then
     exec ./render.nu
 fi
 
-if [[ "$METHOD" == "GET" && "$P" == "${ROUTE_PATH}/plantings/how-to-make-a-living" ]]; then
+if [[ "$METHOD" == "GET" && "$P" == "${ROUTE_PATH}/plantings/how-do-you-make-a-living" ]]; then
     meta_out headers="$(jo "content-type"="text/html")"
-    exec minijinja-cli ./how-do-you-make-a-living.html
+    cat ./how-do-you-make-a-living.md | md2html > content.html 
+    minijinja-cli ./how-do-you-make-a-living.html
+    exit
+fi
+
+if [[ "$METHOD" == "GET" && "$P" == "${ROUTE_PATH}/styles.css" ]]; then
+    meta_out headers="$(jo "content-type"="text/css")"
+    exec cat styles.css
 fi
 
 meta_out status=404 headers="$(jo "content-type"="text/html")"

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+
+
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -8,8 +9,6 @@
 
     <title>@ndyg</title>
     <meta property="og:title" content="@ndyg" />
-
-    <link href="https://cdn.skypack.dev/sanitize.css" rel="stylesheet" />
 
     <script>
       const ONE_HOUR = 3600000;
@@ -28,113 +27,7 @@
       document.documentElement.setAttribute("data-theme", theme);
     </script>
 
-    <style>
-      :root {
-        --paragraph-color: #172c66;
-        --accent-paragraph-color: #c24480;
-        --headline-color: #268bd2;
-        --background-color: #fef6e4;
-        --shadow-color: rgba(0, 0, 0, 0.7);
-      }
-
-      html[data-theme="dark"] {
-        --paragraph-color: #b8c1ec;
-        --accent-paragraph-color: #268bd2;
-        --headline-color: #fffffe;
-        --background-color: #232946;
-        --shadow-color: rgba(100, 255, 255, 0.7);
-      }
-
-      *,
-      *::before,
-      *::after {
-        box-sizing: border-box;
-      }
-
-      iframe,
-      img,
-      input,
-      select,
-      textarea {
-        height: auto;
-        max-width: 100%;
-      }
-
-      img {
-        border-radius: 5px;
-      }
-
-      button,
-      input,
-      select,
-      textarea {
-        color: inherit;
-        font: inherit;
-        letter-spacing: inherit;
-        background-color: transparent;
-        border: 1px solid WindowFrame;
-      }
-
-      body {
-        font-size: 1.1rem;
-        max-width: 780px;
-        margin: 0 auto;
-        background-color: var(--background-color);
-        color: var(--paragraph-color);
-        font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono",
-          "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono",
-          "Courier New", monospace;
-      }
-
-      html[data-theme="dark"] .d-block-light {
-        display: none;
-      }
-
-      html[data-theme="light"] .d-block-dark {
-        display: none;
-      }
-
-      a {
-        color: var(--accent-paragraph-color);
-        text-decoration: none;
-        border-bottom: 1px dotted;
-      }
-
-      a:hover {
-        color: var(--headline-color);
-      }
-
-      a.badge {
-        text-decoration: none;
-        border-bottom: none;
-        padding: 0.25rem;
-      }
-
-      a.badge:hover {
-      }
-
-      blockquote {
-        border-left: 4px solid var(--shadow-color);
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-
-      small {
-        font-size: 0.7rem;
-      }
-
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        color: var(--headline-color);
-      }
-      p {
-        /* border: 1px solid yellow; */
-      }
-    </style>
+		<link rel="stylesheet" href="/styles.css">
   </head>
 
   <body>
@@ -246,46 +139,6 @@
     </div>
 
     <div style="padding: 1rem">
-      <style>
-        /* jump */
-        em.status {
-          font-size: 0.8rem;
-          border-radius: 0.4em;
-
-          display: inline-block;
-          padding: 0.1em 0.4em;
-          border: 1px dotted var(--shadow-color);
-          white-space: nowrap;
-        }
-
-        .planting {
-          /*
-          border: 1px dotted var(--shadow-color);
-          margin: 0 -0.5rem;
-          border-radius: 0.4em;
-          padding: 0.5rem;
-					*/
-          display: flex;
-          flex-direction: column;
-          gap: 2em;
-        }
-
-        .sub-planting {
-          display: flex;
-          align-items: stretch;
-          gap: 1em;
-        }
-
-        .sub-planting > :nth-child(1) {
-          align-self: stretch;
-          flex: 1;
-        }
-
-        .sub-planting > :nth-child(2) {
-          align-self: stretch;
-          flex: 2;
-        }
-      </style>
 
       <div style="display: flex; flex-direction: column">
 				{% block main %}{% endblock %}
