@@ -87,7 +87,7 @@ textarea:not([rows]) {
 
 /* end reset.css */
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 
 h1,
 h2,
@@ -95,7 +95,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
   color: #ffffff; /* White text for headings */
   font-weight: 600; /* Semi-bold for headings */
 }
@@ -163,6 +164,7 @@ textarea {
 body {
   max-width: 780px;
   margin: 0 auto;
+  padding: 2ch;
   background-color: var(--background-color);
   color: var(--paragraph-color);
   font-family: "Open Sans", sans-serif;
@@ -222,50 +224,39 @@ blockquote {
 }
 
 .image-xkcd {
-    max-height: 300px;
+  max-height: 300px;
 }
 
+/* planting specific (so index.html for now) */
 
+/* jump */
+em.status {
+  font-size: 0.8rem;
+  border-radius: 0.4em;
+  display: inline-block;
+  padding: 0.1em 0.4em;
+  border: 1px dotted var(--shadow-color);
+  white-space: nowrap;
+}
 
+.planting {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
 
+.sub-planting {
+  display: flex;
+  align-items: stretch;
+  gap: 1em;
+}
 
+.sub-planting > :nth-child(1) {
+  align-self: stretch;
+  flex: 1;
+}
 
-
-        /* jump */
-        em.status {
-          font-size: 0.8rem;
-          border-radius: 0.4em;
-
-          display: inline-block;
-          padding: 0.1em 0.4em;
-          border: 1px dotted var(--shadow-color);
-          white-space: nowrap;
-        }
-
-        .planting {
-          /*
-          border: 1px dotted var(--shadow-color);
-          margin: 0 -0.5rem;
-          border-radius: 0.4em;
-          padding: 0.5rem;
-                                       */
-          display: flex;
-          flex-direction: column;
-          gap: 2em;
-        }
-
-        .sub-planting {
-          display: flex;
-          align-items: stretch;
-          gap: 1em;
-        }
-
-        .sub-planting > :nth-child(1) {
-          align-self: stretch;
-          flex: 1;
-        }
-
-        .sub-planting > :nth-child(2) {
-          align-self: stretch;
-          flex: 2;
-        }
+.sub-planting > :nth-child(2) {
+  align-self: stretch;
+  flex: 2;
+}
