@@ -224,3 +224,48 @@ blockquote {
 .image-xkcd {
     max-height: 300px;
 }
+
+
+
+
+
+
+
+        /* jump */
+        em.status {
+          font-size: 0.8rem;
+          border-radius: 0.4em;
+
+          display: inline-block;
+          padding: 0.1em 0.4em;
+          border: 1px dotted var(--shadow-color);
+          white-space: nowrap;
+        }
+
+        .planting {
+          /*
+          border: 1px dotted var(--shadow-color);
+          margin: 0 -0.5rem;
+          border-radius: 0.4em;
+          padding: 0.5rem;
+                                       */
+          display: flex;
+          flex-direction: column;
+          gap: 2em;
+        }
+
+        .sub-planting {
+          display: flex;
+          align-items: stretch;
+          gap: 1em;
+        }
+
+        .sub-planting > :nth-child(1) {
+          align-self: stretch;
+          flex: 1;
+        }
+
+        .sub-planting > :nth-child(2) {
+          align-self: stretch;
+          flex: 2;
+        }
