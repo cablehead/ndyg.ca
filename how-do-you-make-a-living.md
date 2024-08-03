@@ -3,26 +3,22 @@
 Some business models. If you've thoughts on this topic, there's a discussion
 going on [here](https://x.com/cablelounger/status/1801611772564062508).
 
-### The [omg.lol](https://home.omg.lol) business model
+### The [omg.lol](https://home.omg.lol) business model <small>(my current favorite)</small>
 
--- <small>(my current favorite)</small>. My take on this model is, build a
-community around some fun tools and generally vibes, and charge a token amount
-to be a participant in the community.
+My take on this model is, build a community around some fun tools and generally
+vibes, and charge a token amount to be a participant in the community.
 
 ### The "open source" business model 
 
--- or generally create something that is useful to a lot of people, and gift it
-to them, then.. make a living?
+Generally, create something that is useful to a lot of people and gift it to
+them, then... make a living? This model seems like [magical
+thinking](https://www.youtube.com/watch?v=tO5sxLapAts), but it also seems like
+it just has to work, somehow?
 
-This model seems like [magical
-thinking](https://www.youtube.com/watch?v=tO5sxLapAts).. but, it also seems
-like, it just has to work, somehow?
+The xkcd comic highlighting how dependent the world is on open source software
+is now a cliché, but it's nonetheless obvious.
 
-The xkcd comic highlighting how dependent
-the world is on open source software is now a cliche, but none the less
-obvious.
-
-[![Open source dependency](https://imgs.xkcd.com/comics/dependency.png)](https://xkcd.com/2347/)
+[<img src="https://imgs.xkcd.com/comics/dependency.png" alt="Open source dependency" class="image-xkcd">](https://xkcd.com/2347/)
 
 We need open source developers to be able to make a good living.
 
@@ -33,15 +29,12 @@ Some projects I'm watching with interest:
   [Ellie](https://x.com/ellie_huxtable)
   [announced](https://ellie.wtf/posts/i-quit-my-job-to-work-full-time-on-my-open-source-project)
   in Jan that she'd quit her job to work on it full time.
-
 - [Bruno](https://github.com/usebruno/bruno) an Opensource IDE For Exploring
   and Testing Api's (lightweight alternative to postman/insomnia). [Anoop M
   D](https://github.com/helloanoop)'s made an [excellent
   post](https://github.com/usebruno/bruno/discussions/269) on the need for
-  sustainable opensource.
-
+  sustainable open source.
 - zellij
-
 - A [tweet](https://x.com/louispilfold/status/1817870737165664604) by [Louis Pilfold](https://x.com/louispilfold) creator of the Gleam
   programming langague caught my eye: ouch.
 
@@ -72,9 +65,11 @@ I find small indie SaaS projects inspiring, like Waterloo's
 [@smhanov](https://x.com/smhanov)'s
 [websequencediagrams](https://websequencediagrams.com). Unassuming on the
 surface, it's provided Steve a good living since 2012, even with the subsequent
-competition from the open-source Mermaid.
+competition from the open source Mermaid.
 
-However, I'm really interested in interop, which leads you to localfirst, as
+However, I'm really interested in
+[interop](https://utopia.rosano.ca/interoperable-visions/), which leads you to
+[local-first](https://www.inkandswitch.com/local-first/), as
 generally the traditional SaaS' interests are in conflict with interop. And
 then, as [@Zephraph](https://x.com/Zephraph)
 [observed](https://x.com/Zephraph/status/1798418469110902849)

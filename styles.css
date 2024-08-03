@@ -13,14 +13,23 @@ html {
 }
 
 /* Remove default margin in favour of better control in authored CSS */
-body, h1, h2, h3, h4, p,
-figure, blockquote, dl, dd {
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+ul,
+dl,
+dd {
   margin-block-end: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
@@ -31,21 +40,22 @@ body {
 }
 
 /* Set shorter line heights on headings and interactive elements */
-h1, h2, h3, h4,
-button, input, label {
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
   line-height: 1.1;
 }
 
 /* Balance text wrapping on headings */
-h1, h2,
-h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   text-wrap: balance;
-}
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-  color: currentColor;
 }
 
 /* Make images easier to work with */
@@ -53,11 +63,14 @@ img,
 picture {
   max-width: 100%;
   display: block;
+  margin: 0 auto;
 }
 
 /* Inherit fonts for inputs and buttons */
-input, button,
-textarea, select {
+input,
+button,
+textarea,
+select {
   font-family: inherit;
   font-size: inherit;
 }
@@ -72,19 +85,17 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
+/* end reset.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
-body {
-  font-family: 'Open Sans', sans-serif;
-  background-color: #1e1e1e; /* Dark gray background */
-  color: #e0e0e0; /* Light gray text for readability */
-  margin: 0;
-  padding: 20px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
   color: #ffffff; /* White text for headings */
   font-weight: 600; /* Semi-bold for headings */
 }
@@ -94,7 +105,8 @@ a {
   text-decoration: underline;
 }
 
-pre, code {
+pre,
+code {
   background-color: #333; /* Darker gray for code blocks */
   color: #e0e0e0; /* Light gray text for code */
   padding: 10px;
@@ -102,10 +114,113 @@ pre, code {
   overflow-x: auto;
 }
 
+:root {
+  --paragraph-color: #172c66;
+  --accent-paragraph-color: #c24480;
+  --headline-color: #268bd2;
+  --background-color: #fef6e4;
+  --shadow-color: rgba(0, 0, 0, 0.7);
+}
+
+html[data-theme="dark"] {
+  --paragraph-color: #b8c1ec;
+  --accent-paragraph-color: #268bd2;
+  --headline-color: #fffffe;
+  --background-color: #232946;
+  --shadow-color: rgba(100, 255, 255, 0.7);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+iframe,
+img,
+input,
+select,
+textarea {
+  height: auto;
+  max-width: 100%;
+}
+
+img {
+  border-radius: 5px;
+}
+
+button,
+input,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  background-color: transparent;
+  border: 1px solid WindowFrame;
+}
+
+body {
+  max-width: 780px;
+  margin: 0 auto;
+  background-color: var(--background-color);
+  color: var(--paragraph-color);
+  font-family: "Open Sans", sans-serif;
+}
+
+html[data-theme="dark"] .d-block-light {
+  display: none;
+}
+
+html[data-theme="light"] .d-block-dark {
+  display: none;
+}
+
+a {
+  color: rgb(255, 175, 243);
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+a:hover {
+  color: var(--headline-color);
+}
+
+a.badge {
+  text-decoration: none;
+  border-bottom: none;
+  padding: 0.25rem;
+}
+
+a.badge:hover {
+}
+
+small {
+  font-size: 0.7rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--headline-color);
+}
+
+/* less indent for lists */
+ul {
+  padding-left: 3ch;
+}
+
 blockquote {
-  border-left: 5px solid #555; /* Medium gray border for blockquotes */
-  padding-left: 10px;
-  color: #ccc; /* Light gray text for blockquotes */
+  margin-left: 2ch;
+  border-left: 4px solid var(--shadow-color);
+  padding-left: 2ch;
+  padding-right: 2ch;
   font-style: italic;
-  margin: 20px 0;
+}
+
+.image-xkcd {
+    max-height: 300px;
 }
