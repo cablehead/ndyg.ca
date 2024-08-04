@@ -18,7 +18,9 @@ it just has to work, somehow?
 The xkcd comic highlighting how dependent the world is on open source software
 is now a cliché, but it's nonetheless obvious.
 
-[<img src="https://imgs.xkcd.com/comics/dependency.png" alt="Open source dependency" class="image-xkcd">](https://xkcd.com/2347/)
+<p style="margin: 0 auto">
+<img src="https://imgs.xkcd.com/comics/dependency.png" alt="Open source dependency" class="image-xkcd">
+</p>
 
 We need open source developers to be able to make a good living.
 
@@ -35,8 +37,9 @@ Some projects I'm watching with interest:
   post](https://github.com/usebruno/bruno/discussions/269) on the need for
   sustainable open source.
 - zellij
-- A [tweet](https://x.com/louispilfold/status/1817870737165664604) by [Louis Pilfold](https://x.com/louispilfold) creator of the Gleam
-  programming langague caught my eye: ouch.
+- A [tweet](https://x.com/louispilfold/status/1817870737165664604) by [Louis
+  Pilfold](https://x.com/louispilfold), creator of the
+  [Gleam](https://gleam.run) programming langague, caught my eye: ouch.
 
 ### The ["Ben Thompson"](https://stratechery.com) business model
 

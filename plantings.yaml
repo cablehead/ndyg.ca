@@ -15,7 +15,7 @@ plantings:
 
 - name: xs
   url: https://github.com/cablehead/xs
-  status: 'WIP [<span style="color: green">██</span>.... 20%]'
+  status: 'WIP [<span style="color: green">███</span>.. 40%]'
   description: An event stream store for personal, local-first use. Kinda like the <a href="https://sqlite.org/cli.html">sqlite3 cli</a>, but specializing in the <a href="https://martinfowler.com/eaaDev/EventSourcing.html">event sourcing</a> use case
   image:
     path: ./xs.png
