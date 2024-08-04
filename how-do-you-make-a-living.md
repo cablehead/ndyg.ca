@@ -41,14 +41,14 @@ Some projects I'm watching with interest:
 ### The ["Ben Thompson"](https://stratechery.com) business model
 
 Regularly create compelling content that people are willing to pay a
-subscription for. Ben wasn't the first to do this, but at least to me stands
-out as been very good, and successful with his it. Substack is a more recent
+subscription for. Ben wasn't the first to do this, but at least to me, stands
+out as been being very good and successful with it. Substack is a more recent
 platform that enables this model.
 
 Some of my current favorite writers:
 
 - [Heather Cox Richardson](https://heathercoxrichardson.substack.com)
-- [Phillips P. Obrien](https://phillipspobrien.substack.com)
+- [Phillips P. O’Brien](https://phillipspobrien.substack.com)
 - [Benjamin Parry](https://www.skillfulnotes.com)
 
 Is this model the same as the [patronage](https://www.patreon.com) model?
