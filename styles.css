@@ -12,34 +12,12 @@ html {
   text-size-adjust: none;
 }
 
-/* Remove default margin in favour of better control in authored CSS */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-ul,
-dl,
-dd {
-  margin-block-end: 0;
-}
-
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role="list"],
-ol[role="list"] {
-  list-style: none;
-}
-
 /* Set core body defaults */
 body {
   min-height: 100vh;
   line-height: 1.5;
 }
 
-/* Set shorter line heights on headings and interactive elements */
 h1,
 h2,
 h3,
@@ -50,7 +28,6 @@ label {
   line-height: 1.1;
 }
 
-/* Balance text wrapping on headings */
 h1,
 h2,
 h3,
@@ -58,15 +35,13 @@ h4 {
   text-wrap: balance;
 }
 
-/* Make images easier to work with */
 img,
 picture {
   max-width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
-/* Inherit fonts for inputs and buttons */
 input,
 button,
 textarea,
@@ -116,18 +91,37 @@ code {
 }
 
 :root {
-  --paragraph-color: #172c66;
-  --accent-paragraph-color: #c24480;
-  --headline-color: #268bd2;
-  --background-color: #fef6e4;
+  --base03: #002b36;
+  --base02: #073642;
+  --base01: #586e75;
+  --base00: #657b83;
+  --base0: #839496;
+  --base1: #93a1a1;
+  --base2: #eee8d5;
+  --base3: #fdf6e3;
+  --yellow: #b58900;
+  --orange: #cb4b16;
+  --red: #dc322f;
+  --magenta: #d33682;
+  --violet: #6c71c4;
+  --blue: #268bd2;
+  --cyan: #2aa198;
+  --green: #859900;
+
+  --paragraph-color: var(--base0);
+  --accent-paragraph-color: var(--base1);
+  --headline-color: var(--base00);
+  --background-color: var(--base3);
+  --link-color: var(--blue);
   --shadow-color: rgba(0, 0, 0, 0.7);
 }
 
 html[data-theme="dark"] {
-  --paragraph-color: #b8c1ec;
-  --accent-paragraph-color: #268bd2;
-  --headline-color: #fffffe;
-  --background-color: #232946;
+  --paragraph-color: var(--base0);
+  --accent-paragraph-color: var(--base1);
+  --headline-color: var(--base1);
+  --background-color: var(--base03);
+  --link-color: var(--blue);
   --shadow-color: rgba(100, 255, 255, 0.7);
 }
 
@@ -179,7 +173,7 @@ html[data-theme="light"] .d-block-dark {
 }
 
 a {
-  color: rgb(255, 175, 243);
+  color: var(--link-color);
   text-decoration: none;
   border-bottom: 1px dotted;
 }
@@ -210,12 +204,34 @@ h6 {
   color: var(--headline-color);
 }
 
-/* less indent for lists */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.25em;
+  margin-bottom: 0.6em;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+
 ul {
   padding-left: 3ch;
+  margin-top: 0em;
+  margin-bottom: 0.6em;
 }
 
 blockquote {
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin-left: 2ch;
   border-left: 4px solid var(--shadow-color);
   padding-left: 2ch;
