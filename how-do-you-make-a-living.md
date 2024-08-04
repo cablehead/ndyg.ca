@@ -62,9 +62,6 @@ access a superior, ad-free service without individual members needing to pay
 upfront. Benefactors may also gain access to exclusive tools and features,
 aiding in tech support and community management.
 
-The core idea is to facilitate the transition to a premium service, supported by
-a tech-savvy benefactor who covers the initial cost.
-
 ### The ["Ben Thompson"](https://stratechery.com) business model
 
 Regularly create compelling content that people are willing to pay a
