@@ -22,7 +22,10 @@ is now a cliché, but it's nonetheless obvious.
 <img src="https://imgs.xkcd.com/comics/dependency.png" alt="Open source dependency" class="image-xkcd">
 </p>
 
-We need open source developers to be able to make a good living.
+The world relies on open source, and developers need to make a good living to
+keep it secure and thriving. Importantly, 20 GitHub sponsors at $5/month is a
+deeply unserious solution. We need to be thinking in terms of $200K USD per
+developer per year. So how do we achieve that?
 
 Some projects I'm watching with interest:
 
@@ -36,7 +39,7 @@ Some projects I'm watching with interest:
   [Anoop M D](https://github.com/helloanoop)'s made an
   [excellent post](https://github.com/usebruno/bruno/discussions/269) on the
   need for sustainable open source.
-- Zellij
+- Zellij _(tbd)_
 - A [tweet](https://x.com/louispilfold/status/1817870737165664604) by
   [Louis Pilfold](https://x.com/louispilfold), creator of the
   [Gleam](https://gleam.run) programming language, caught my eye: ouch.
