@@ -69,10 +69,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Urbanist", sans-serif;
   font-optical-sizing: auto;
-  color: #ffffff; /* White text for headings */
-  font-weight: 600; /* Semi-bold for headings */
 }
 
 a {
@@ -160,7 +157,7 @@ body {
   padding: 2ch;
   background-color: var(--background-color);
   color: var(--paragraph-color);
-  font-family: "Open Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
 }
 
 html[data-theme="dark"] .d-block-light {
@@ -232,7 +229,7 @@ blockquote {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 2ch;
-  border-left: 4px solid var(--shadow-color);
+  border-left: 4px solid var(--headline-color);
   padding-left: 2ch;
   padding-right: 2ch;
   font-style: italic;
