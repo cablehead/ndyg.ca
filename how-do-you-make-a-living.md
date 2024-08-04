@@ -51,10 +51,10 @@ business model,” aimed at making groupware software useful for small
 communities, such as families and close groups of friends, by bypassing the need
 for widespread adoption and network effects.
 
-In close-knit groups, tech enthusiasts often scout for new software and serve as
-the community’s tech guides. They usually recommend free, ad-supported groupware
-to avoid financial commitment. However, proposing a paid service is challenging
-due to the need for unanimous agreement on payment.
+In close-knit groups, tech enthusiasts often scout for new software and serve
+as the community’s tech guides. They usually recommend free, ad-supported
+groupware to avoid financial commitment. Proposing a paid service is
+challenging due to the need for unanimous agreement on payment.
 
 This model overcomes that hurdle by having tech enthusiasts act as benefactors,
 covering the subscription fee for the entire group. This allows the community to
