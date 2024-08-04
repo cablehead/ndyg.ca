@@ -43,33 +43,24 @@ Some projects I'm watching with interest:
 
 ### The benefactor business model modifier
 
-A potential implementation variation of the other models is the "benefactor
-business model". This approach aims to make groupware software useful for small
+A potential implementation variation of the other models is the “benefactor
+business model,” aimed at making groupware software useful for small
 communities, such as families and close groups of friends, by bypassing the need
 for widespread adoption and network effects.
 
-In most close-knit groups, there are usually a few tech enthusiasts who scout
-for new software, particularly tools that can be used collectively. They often
-serve as the community's tech guides, recommending groupware software for shared
-use.
+In close-knit groups, tech enthusiasts often scout for new software and serve as
+the community’s tech guides. They usually recommend free, ad-supported groupware
+to avoid financial commitment. However, proposing a paid service is challenging
+due to the need for unanimous agreement on payment.
 
-The default suggestion usually falls on free, ad-supported groupware since it
-allows everyone to start using it without financial commitment. Proposing a paid
-service is challenging, as it requires unanimous agreement on payment before
-participation.
+This model overcomes that hurdle by having tech enthusiasts act as benefactors,
+covering the subscription fee for the entire group. This allows the community to
+access a superior, ad-free service without individual members needing to pay
+upfront. Benefactors may also gain access to exclusive tools and features,
+aiding in tech support and community management.
 
-The benefactor business model modifier aims to overcome the hurdle of
-transitioning a community to a paid, ad-free platform. In this model, the tech
-enthusiast(s), acting as benefactor(s), cover the subscription fee for the
-entire group. Once subscribed, they can then provide the community with free
-access to the service.
-
-The benefactor can also have access to exclusive tools and features, tailored to
-assist in supporting their community more effectively, particularly with
-technology-related inquiries or needs.
-
-The core idea is to enable communities to switch to a superior, ad-free service
-without the barrier of individual members needing to pay upfront.
+The core idea is to facilitate the transition to a premium service, supported by
+a tech-savvy benefactor who covers the initial cost.
 
 ### The ["Ben Thompson"](https://stratechery.com) business model
 
