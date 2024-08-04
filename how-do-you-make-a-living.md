@@ -27,21 +27,21 @@ We need open source developers to be able to make a good living.
 Some projects I'm watching with interest:
 
 - [Atuin](https://atuin.sh): a tool to make your shell history searchable. I
-  probably activate atuin 10s of times an hour on a typical work day.
+  probably activate Atuin 10s of times an hour on a typical work day.
   [Ellie](https://x.com/ellie_huxtable)
   [announced](https://ellie.wtf/posts/i-quit-my-job-to-work-full-time-on-my-open-source-project)
   in Jan that she'd quit her job to work on it full time.
 - [Bruno](https://github.com/usebruno/bruno) an open-source IDE for exploring
-  and testing API's (think lightweight alternative to Postman or Insomnia).
+  and testing APIs (think lightweight alternative to Postman or Insomnia).
   [Anoop M D](https://github.com/helloanoop)'s made an
   [excellent post](https://github.com/usebruno/bruno/discussions/269) on the
   need for sustainable open source.
-- zellij
+- Zellij
 - A [tweet](https://x.com/louispilfold/status/1817870737165664604) by
   [Louis Pilfold](https://x.com/louispilfold), creator of the
   [Gleam](https://gleam.run) programming language, caught my eye: ouch.
 
-### The benefactor business model, modifier
+### The benefactor business model modifier
 
 A potential implementation variation of the other models is the "benefactor
 business model". This approach aims to make groupware software useful for small
@@ -92,7 +92,7 @@ Create and host software that provides value to users, who then pay a
 subscription fee for access. Under the straight SaaS play business model, there
 are pioneers like Salesforce and behemoths like GitHub, but I think the world is
 more interesting with thousands of small, niche SaaS providers rather than a few
-mega-services.
+mega services.
 
 I find small indie SaaS projects inspiring, like Waterloo's
 [@smhanov](https://x.com/smhanov)'s
