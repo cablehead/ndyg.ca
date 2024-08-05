@@ -154,7 +154,6 @@ textarea {
 body {
   max-width: 780px;
   margin: 0 auto;
-  padding: 2ch;
   background-color: var(--background-color);
   color: var(--paragraph-color);
   font-family: "Urbanist", sans-serif;
