@@ -1,7 +1,22 @@
 ## How do you make a living?
 
-Some business models. If you've thoughts on this topic, there's a discussion
-going on [here](https://x.com/cablelounger/status/1801611772564062508).
+Specifically, this page is a growing collection of thoughts on business models
+for software developers and those who administer computers over a network,
+typically using the command line. As a [digital
+garden](https://maggieappleton.com/garden-history), it's a space for ideas to
+evolve rather than a polished article. If you're comfortable with Unix terminals
+and enjoy tinkering with code and systems, you'll likely find these musings
+relevant. Let's explore how we can sustainably fund the work that powers much of
+our digital world.
+
+#### [Epistemic Disclosure](https://maggieappleton.com/epistemic-disclosure)
+
+- <span class="epistemic-disclosure" data-tooltip="How long I've been mulling this over">Root Depth</span>: about a decade.
+- <span class="epistemic-disclosure" data-tooltip="My progress in articulating and refining the concept">Growth Stage</span>: about 4 months.
+- <span class="epistemic-disclosure" data-tooltip="The extent of feedback and external input I've incorporated">Cross-Pollination</span>: untested: feedback appreciated!
+
+If you've thoughts on this topic, there's a discussion going on
+[here](https://x.com/cablelounger/status/1801611772564062508).
 
 ### The [omg.lol](https://home.omg.lol) business model <small>(my current favorite)</small>
 
@@ -51,10 +66,10 @@ business model,” aimed at making groupware software useful for small
 communities, such as families and close groups of friends, by bypassing the need
 for widespread adoption and network effects.
 
-In close-knit groups, tech enthusiasts often scout for new software and serve
-as the community’s tech guides. They usually recommend free, ad-supported
-groupware to avoid financial commitment. Proposing a paid service is
-challenging due to the need for unanimous agreement on payment.
+In close-knit groups, tech enthusiasts often scout for new software and serve as
+the community’s tech guides. They usually recommend free, ad-supported groupware
+to avoid financial commitment. Proposing a paid service is challenging due to
+the need for unanimous agreement on payment.
 
 This model overcomes that hurdle by having tech enthusiasts act as benefactors,
 covering the subscription fee for the entire group. This allows the community to

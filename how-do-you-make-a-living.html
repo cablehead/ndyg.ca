@@ -1,5 +1,28 @@
 {% extends "base.html" %}
 
 {% block main %}
+<style>
+.epistemic-disclosure {
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted;
+  display: inline-block;
+}
+
+.epistemic-disclosure:hover::before {
+  color: var(--background-color);
+  background-color: var(--paragraph-color);
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 60%;
+  left: 40px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  white-space: nowrap;
+  z-index: 1;
+}
+</style>
+
 		{% include 'content.html' %}
 {% endblock %}
