@@ -1,10 +1,10 @@
-
-## <small>Planting /</small> <br/>How do you make a living?
+## <small>Planting /</small><br/>How do you make a living?
 
 This page explores sustainable business models for software developers who
 specialize in creating tools, automating systems, and building niche services.
-The focus is on supporting a diverse ecosystem of smaller, specialized software
-projects rather than a few dominant tech giants.
+The focus is on fostering an ecosystem where thousands of smaller, specialized
+software projects can thrive alongside the dominant tech giants by catering to
+specific, niche audiences.
 
 #### [Epistemic Disclosure](https://maggieappleton.com/epistemic-disclosure)
 
