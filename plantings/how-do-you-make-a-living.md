@@ -39,7 +39,7 @@ is now a cliché, but it's nonetheless obvious.
 <img src="https://imgs.xkcd.com/comics/dependency.png" alt="Open source dependency" class="image-xkcd" />
 
 The world relies on open source, and developers need to make a good living to
-keep it secure and thriving. Importantly, 20 GitHub sponsors at $5/month is a
+keep it secure and thriving. Importantly, 20 GitHub sponsors at $5/month is an
 unserious solution. We need to be thinking in terms of
 [\$200K USD per developer per year](./what-constitutes-a-good-living#:~:text=%24200K%20USD%20per%20year). So
 how do we achieve that?
