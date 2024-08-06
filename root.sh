@@ -26,9 +26,12 @@ if [[ "$METHOD" == "GET" && "$P" == "${ROUTE_PATH}" ]]; then
     exec ./render.nu
 fi
 
-if [[ "$METHOD" == "GET" && "$P" == "${ROUTE_PATH}/plantings/how-do-you-make-a-living" ]]; then
-    meta_out headers="$(jo "content-type"="text/html")"
-    exec ./render-apage.nu ./how-do-you-make-a-living.md
+if [[ "$METHOD" == "GET" && "$P" == ${ROUTE_PATH}/plantings/* ]]; then
+    NAME="${P#${ROUTE_PATH}/plantings/}"
+    if [[ -f "plantings/$NAME.md" ]]; then
+        meta_out headers="$(jo "content-type"="text/html")"
+        exec ./render-apage.nu "plantings/$NAME.md"
+    fi
 fi
 
 if [[ "$METHOD" == "GET" && "$P" == "${ROUTE_PATH}/styles.css" ]]; then
