@@ -9,7 +9,7 @@ software projects can thrive alongside the dominant tech giants by catering to
 specific, niche audiences.
 
 If you've thoughts on this topic, there's a discussion going on
-[here](https://x.com/cablelounger/status/1801611772564062508).
+[here](https://x.com/cablelounger/status/1820870510286082193).
 
 #### [Epistemic Disclosure](https://maggieappleton.com/epistemic-disclosure)
 
