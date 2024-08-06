@@ -61,21 +61,25 @@ Some projects I'm watching with interest:
 
 ### The benefactor business model modifier
 
-A potential implementation variation of the other models is the “benefactor
-business model,” aimed at making groupware software useful for small
-communities, such as families and close groups of friends, by bypassing the need
-for widespread adoption and network effects.
+A barrier to adopting specialized groupware apps is the need for the entire
+group to adopt the app for it to be usable at all. For example, a chat channel
+for a family group only works when everyone in the group is able to
+participate.
 
-In close-knit groups, tech enthusiasts often scout for new software and serve as
-the community’s tech guides. They usually recommend free, ad-supported groupware
-to avoid financial commitment. Proposing a paid service is challenging due to
-the need for unanimous agreement on payment.
+The "benefactor business model" aims to address this "all-or-nothing"
+requirement by having one enthusiastic group member pay for the entire group.
+In close-knit groups, tech enthusiasts often serve as the community's tech
+guides, usually recommending free, ad-supported groupware to avoid financial
+commitment from others.
 
-This model overcomes that hurdle by having tech enthusiasts act as benefactors,
-covering the subscription fee for the entire group. This allows the community to
-access a superior, ad-free service without individual members needing to pay
-upfront. Benefactors may also gain access to exclusive tools and features,
-aiding in tech support and community management.
+This model transforms these enthusiasts into benefactors who cover the
+subscription fee for the whole group. As a result, the community gains access
+to a superior, ad-free service without requiring individual members to pay.
+Benefactors may also receive exclusive tools and features to aid in tech
+support and community management.
+
+This modifier can be applied to the other business models to overcome adoption
+barriers in small, close-knit groups.
 
 ### The ["Ben Thompson"](https://stratechery.com) business model
 
@@ -89,6 +93,8 @@ Some of my current favorite writers:
 - [Heather Cox Richardson](https://heathercoxrichardson.substack.com)
 - [Phillips P. O’Brien](https://phillipspobrien.substack.com)
 - [Benjamin Parry](https://www.skillfulnotes.com)
+- [Tangle](https://www.readtangle.com), who have [now left
+  Substack](https://tangle.substack.com/p/we-are-no-longer-on-substack)
 
 Is this model the same as the [patronage](https://www.patreon.com) model?
 
