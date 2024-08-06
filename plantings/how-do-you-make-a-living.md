@@ -8,6 +8,9 @@ The focus is on fostering an ecosystem where thousands of smaller, specialized
 software projects can thrive alongside the dominant tech giants by catering to
 specific, niche audiences.
 
+If you've thoughts on this topic, there's a discussion going on
+[here](https://x.com/cablelounger/status/1801611772564062508).
+
 #### [Epistemic Disclosure](https://maggieappleton.com/epistemic-disclosure)
 
 - <span class="epistemic-disclosure" data-tooltip="How long I've been mulling this over">Root Depth</span>: about a decade.
@@ -16,9 +19,7 @@ specific, niche audiences.
 - Last updated: 05 Aug 2024
 - This page makes more sense if you're familar with the idea of a [digital
   garden](https://maggieappleton.com/garden-history).
-
-If you've thoughts on this topic, there's a discussion going on
-[here](https://x.com/cablelounger/status/1801611772564062508).
+- Related plantings: [What constitutes a good living?](./what-constitutes-a-good-living)
 
 ### The [omg.lol](https://home.omg.lol) business model <small>(my current favorite)</small>
 
@@ -35,12 +36,13 @@ seems like it just has to work, somehow?
 The xkcd comic highlighting how dependent the world is on open source software
 is now a cliché, but it's nonetheless obvious.
 
-<img src="https://imgs.xkcd.com/comics/dependency.png" alt="Open source dependency" class="image-xkcd">
+<img src="https://imgs.xkcd.com/comics/dependency.png" alt="Open source dependency" class="image-xkcd" />
 
 The world relies on open source, and developers need to make a good living to
 keep it secure and thriving. Importantly, 20 GitHub sponsors at $5/month is a
-deeply unserious solution. We need to be thinking in terms of $200K USD per
-developer per year. So how do we achieve that?
+unserious solution. We need to be thinking in terms of
+[\$200K USD per developer per year](./what-constitutes-a-good-living#:~:text=%24200K%20USD%20per%20year). So
+how do we achieve that?
 
 Some projects I'm watching with interest:
 

@@ -1,10 +1,9 @@
-## <small>Planting /</small><br/>What Constitutes a Good Living?
+## <small>Planting /</small><br/>What constitutes a good living?
 
-This page explores the concept of what constitutes a "good" living by examining
-the financial, social, and personal factors that contribute to a fulfilling
-lifestyle. The focus is on quantifying the amount of income needed to achieve a
-comfortable and sustainable standard of living, considering various individual
-and societal benchmarks.
+This page explores the concept of what constitutes a "good" living. The focus
+is on quantifying the amount of income needed to achieve a comfortable and
+sustainable standard of living, considering various individual and societal
+benchmarks.
 
 #### [Epistemic Disclosure](https://maggieappleton.com/epistemic-disclosure)
 
@@ -14,12 +13,13 @@ and societal benchmarks.
 - Last updated: 06 Aug 2024
 - This page makes more sense if you're familar with the idea of a [digital
   garden](https://maggieappleton.com/garden-history).
+- Related plantings: [How do you make a living?](./how-do-you-make-a-living)
 
-A starting point:
+### A starting point
 
-- We want _everyone_ to have a good living (like, all 8 billion of us). This is
-  a truism for me, but does everyone think this way? (might be a planting in
-  its own right)
+- We want everyone to have a good living (like, all 8 billion of us). This is a
+  given for me, but does everyone think this way? (might be a planting in its
+  own right)
 - As a placeholder, I'm using $200K USD per year to define a good living.
 - However, this amount and framing are obviously not right.
 - For a start, we have to account for factors such as the local economic
