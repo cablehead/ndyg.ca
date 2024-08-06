@@ -121,11 +121,6 @@ html[data-theme="dark"] {
   --shadow-color: rgba(100, 255, 255, 0.7);
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
 iframe,
 img,
@@ -177,27 +172,18 @@ a:hover {
   color: var(--headline-color);
 }
 
+
 a.badge {
   text-decoration: none;
   border-bottom: none;
-  padding: 0.25rem;
+  display: inline-flex;
 }
 
-a.badge:hover {
-}
 
 small {
   font-size: 0.8rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--headline-color);
-}
 
 h1,
 h2,
@@ -207,6 +193,7 @@ h5,
 h6 {
   margin-top: 1.25em;
   margin-bottom: 0.6em;
+  color: var(--headline-color);
 }
 
 li {
