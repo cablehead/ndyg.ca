@@ -1,19 +1,19 @@
-## How do you make a living?
 
-Specifically, this page is a growing collection of thoughts on business models
-for software developers and those who administer computers over a network,
-typically using the command line. As a [digital
-garden](https://maggieappleton.com/garden-history), it's a space for ideas to
-evolve rather than a polished article. If you're comfortable with Unix terminals
-and enjoy tinkering with code and systems, you'll likely find these musings
-relevant. Let's explore how we can sustainably fund the work that powers much of
-our digital world.
+## <small>Planting /</small> <br/>How do you make a living?
+
+This page explores sustainable business models for software developers who
+specialize in creating tools, automating systems, and building niche services.
+The focus is on supporting a diverse ecosystem of smaller, specialized software
+projects rather than a few dominant tech giants.
 
 #### [Epistemic Disclosure](https://maggieappleton.com/epistemic-disclosure)
 
 - <span class="epistemic-disclosure" data-tooltip="How long I've been mulling this over">Root Depth</span>: about a decade.
 - <span class="epistemic-disclosure" data-tooltip="My progress in articulating and refining the concept">Growth Stage</span>: about 4 months.
 - <span class="epistemic-disclosure" data-tooltip="The extent of feedback and external input I've incorporated">Cross-Pollination</span>: untested: feedback appreciated!
+- Last updated: 05 Aug 2024
+- This page makes more sense if you're familar with the idea of a [digital
+  garden](https://maggieappleton.com/garden-history).
 
 If you've thoughts on this topic, there's a discussion going on
 [here](https://x.com/cablelounger/status/1801611772564062508).
