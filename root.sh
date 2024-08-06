@@ -28,9 +28,7 @@ fi
 
 if [[ "$METHOD" == "GET" && "$P" == "${ROUTE_PATH}/plantings/how-do-you-make-a-living" ]]; then
     meta_out headers="$(jo "content-type"="text/html")"
-    cat ./how-do-you-make-a-living.md | md2html > content.html 
-    minijinja-cli ./how-do-you-make-a-living.html
-    exit
+    exec ./render-apage.nu ./how-do-you-make-a-living.md
 fi
 
 if [[ "$METHOD" == "GET" && "$P" == "${ROUTE_PATH}/styles.css" ]]; then
