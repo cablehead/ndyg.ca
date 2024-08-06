@@ -88,7 +88,9 @@ subscription for. Ben wasn't the first to do this, but at least to me, stands
 out as being very good and successful with it. Substack is a more recent
 platform that enables this model.
 
-Some of my current favorite writers:
+Here are some of my favorite writers who use this model. Of these, my
+impression is that only Tangle is positioned to make a comfortable living
+solely from their writing:
 
 - [Heather Cox Richardson](https://heathercoxrichardson.substack.com)
 - [Phillips P. O’Brien](https://phillipspobrien.substack.com)
