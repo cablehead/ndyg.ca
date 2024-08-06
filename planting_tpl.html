@@ -3,39 +3,7 @@
 {% else %}{{ caller() }}{% endif %} {% endmacro %}
 
 <div class="planting">
-  <style>
-    em.status {
-      font-size: 0.8rem;
-      border-radius: 0.4em;
-      display: inline-block;
-      padding: 0.1em 0.4em;
-      border: 1px dotted var(--shadow-color);
-      white-space: nowrap;
-    }
-
-    .planting {
-      display: flex;
-      flex-direction: column;
-      gap: 2em;
-    }
-
-    .sub-planting {
-      display: flex;
-      align-items: stretch;
-      gap: 1em;
-    }
-
-    .sub-planting > :nth-child(1) {
-      align-self: stretch;
-      flex: 2;
-    }
-
-    .sub-planting > :nth-child(2) {
-      align-self: stretch;
-      flex: 3;
-    }
-  </style>
-  <div style="display: flex; flex-direction: column; gap: 1em">
+  <div style="display: flex; flex-direction: column; gap: 0.25em">
     <div>
       {% call optional_link(planting.url) %}{{ planting.name }}{% endcall %}
       <em>Status: {{ planting.status | safe }}</em>

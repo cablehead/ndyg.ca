@@ -35,9 +35,7 @@ seems like it just has to work, somehow?
 The xkcd comic highlighting how dependent the world is on open source software
 is now a cliché, but it's nonetheless obvious.
 
-<p style="margin: 0 auto">
 <img src="https://imgs.xkcd.com/comics/dependency.png" alt="Open source dependency" class="image-xkcd">
-</p>
 
 The world relies on open source, and developers need to make a good living to
 keep it secure and thriving. Importantly, 20 GitHub sponsors at $5/month is a

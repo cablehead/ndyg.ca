@@ -121,7 +121,6 @@ html[data-theme="dark"] {
   --shadow-color: rgba(100, 255, 255, 0.7);
 }
 
-
 iframe,
 img,
 input,
@@ -172,18 +171,15 @@ a:hover {
   color: var(--headline-color);
 }
 
-
 a.badge {
   text-decoration: none;
   border-bottom: none;
   display: inline-flex;
 }
 
-
 small {
   font-size: 0.8rem;
 }
-
 
 h1,
 h2,
@@ -222,6 +218,7 @@ blockquote {
 }
 
 .image-xkcd {
+  margin: 0 auto;
   max-height: 300px;
 }
 
@@ -244,4 +241,36 @@ blockquote {
   font-size: 0.9em;
   white-space: nowrap;
   z-index: 1;
+}
+
+/* plantings.css */
+em.status {
+  font-size: 0.8rem;
+  border-radius: 0.4em;
+  display: inline-block;
+  padding: 0.1em 0.4em;
+  border: 1px dotted var(--shadow-color);
+  white-space: nowrap;
+}
+
+.planting {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.sub-planting {
+  display: flex;
+  align-items: stretch;
+  gap: 1em;
+}
+
+.sub-planting > :nth-child(1) {
+  align-self: stretch;
+  flex: 2;
+}
+
+.sub-planting > :nth-child(2) {
+  align-self: stretch;
+  flex: 3;
 }
