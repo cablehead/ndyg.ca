@@ -1,5 +1,7 @@
 ## <small>Planting /</small><br/>How do you make a living?
 
+<small>(for tech folks considering an indie path)</small>
+
 This page explores sustainable business models for software developers who
 specialize in creating tools, automating systems, and building niche services.
 The focus is on fostering an ecosystem where thousands of smaller, specialized
