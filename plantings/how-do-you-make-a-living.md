@@ -11,6 +11,19 @@ specific, niche audiences.
 If you've thoughts on this topic, there's a discussion going on
 [here](https://x.com/cablelounger/status/1820870510286082193).
 
+### Updates (the stream, to be incorporated)
+
+#### 2024 Aug 23:
+
+[gitwallet.co](https://gitwallet.co) is a new project by
+[@tarunsachdeva](https://x.com/tarunsachdeva) that aims to help open source
+developers get paid for their work.
+
+[@calebporzio](https://x.com/calebporzio)
+[shared](https://x.com/tarunsachdeva/status/1826685615011762435) he's passed
+$1M in revenue with his open source projects.
+
+
 #### [Epistemic Disclosure](https://maggieappleton.com/epistemic-disclosure)
 
 - <span class="epistemic-disclosure" data-tooltip="How long I've been mulling this over">Root Depth</span>: about a decade.
