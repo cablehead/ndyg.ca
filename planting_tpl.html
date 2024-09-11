@@ -3,12 +3,12 @@
 {% else %}{{ caller() }}{% endif %} {% endmacro %}
 
 <div class="planting">
-  <div style="display: flex; flex-direction: column; gap: 0.25em">
+  <div style="display: flex; flex-direction: column; gap: 0.5em">
     <div>
-      {% call optional_link(planting.url) %}{{ planting.name }}{% endcall %}
+      <div style="margin-bottom: 0.5em;">{% call optional_link(planting.url) %}{{ planting.name }}{% endcall %}
       <em>Status: {{ planting.status | safe }}</em>
-      {{ planting.description | safe }} {% if planting.image %}{% call optional_link(planting.url)
-			%}<p><img src="./{{ planting.image.path }}" />{% endcall %}</p>{% endif %}
+      {{ planting.description | safe }}</div> {% if planting.image %}{% call optional_link(planting.url)
+			%}<img src="./{{ planting.image.path }}" />{% endcall %}{% endif %}
     </div>
 
     {% for planting in planting.sub %}
