@@ -31,13 +31,16 @@
   </head>
 
   <body>
-		<div style="margin: 1em; display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
-			<h2 style="margin:0;">@<a href="/">ndyg</a></h2>
-	     {% include 'socials.html' %}
+    <div style="padding-left: 1em; padding-right: 1em;">
+
+   <div style="margin-top: 2em; display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+	<h2 style="margin:0;">@<a href="/">ndyg</a></h2>
+     {% include 'socials.html' %}
     </div>
 
-    <div style="padding-left: 1em; padding-right: 1em;">
-				{% block main %}{% endblock %}
+    <div>
+	{% block main %}{% endblock %}
+    </div>
     </div>
 
     <script>
