@@ -32,19 +32,10 @@
 
   <body>
     <div style="padding-left: 1em; padding-right: 1em">
-      <div
-        style="
-          margin-top: 2em;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-        "
-      >
-        <h2 style="margin: 0">@<a href="/">ndyg</a></h2>
+      <header>
+        <h1>@<a href="/">ndyg</a></h1>
         {% include 'socials.html' %}
-      </div>
-
+      </header>
       <div>{% block main %}{% endblock %}</div>
     </div>
 

@@ -86,6 +86,31 @@ code {
   overflow-x: auto;
 }
 
+header {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  all: unset;
+  display: block;
+  font-size: 1.5em;
+  font-weight: 700;
+  flex: 1;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  header {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 2em;
+  }
+}
+
 :root {
   --base03: #002b36;
   --base02: #073642;
@@ -146,7 +171,7 @@ textarea {
 }
 
 body {
-  max-width: 780px;
+  max-width: 800px;
   margin: 0 auto;
   background-color: var(--background-color);
   color: var(--paragraph-color);
