@@ -13,6 +13,14 @@ If you've thoughts on this topic, there's a discussion going on
 
 ### Updates (the stream, to be incorporated)
 
+#### 2024 Oct 09:
+
+[Maggie Appleton](https://maggieappleton.com/about)'s Land of opportunity
+
+<a href="https://youtu.be/qo5m92-9_QI?si=ZP8kwPZufzpmJvyk&t=504"><img
+src="../land-of-opportunity.jpg" alt="Land of opportunity" style="width:50%"
+/></a>
+
 #### 2024 Aug 23:
 
 [gitwallet.co](https://gitwallet.co) is a new project by
