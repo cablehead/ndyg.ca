@@ -11,7 +11,7 @@ plantings:
 - name: Stacks
   url: https://stacks.cross.stream/releases/v0.15.6
   status: Useful, and still sketching
-  description: A humble clipboard manager aspiring to elevate the depth of our conversations
+  description: A humble clipboard manager aspiring to elevate the depth of our conversations. 🤫 don't tell anyone, but this is actually the UI for <a href="https://github.com/cablehead/xs">xs</a>.
   image:
     path: ./stacks.png
   sub:
