@@ -1,0 +1,22 @@
+{% extends "base.html" %}{% block main %}
+
+<p style="margin-top: 4em">
+This is a "quick" page, dumped from my clipboard manager, <a
+href="https://stacks.cross.stream/">Stacks</a>.
+</p>
+
+<p>
+How private is this page? Nothing externally links to it, so you would have to
+guess the Scru128ID of the stack. However, it is publicly available.
+</p>
+
+<p>Stack ID: {{ stack_id }}</p>
+
+<hr style="
+    border: none; height: 1px; background: none;
+    border-top: 1px dotted var(--shadow-color);
+    margin: 2em 0;
+    ">
+
+{{ content | safe }}
+{% endblock %}

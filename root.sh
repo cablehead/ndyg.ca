@@ -34,6 +34,16 @@ if [[ "$METHOD" == "GET" && "$P" == ${ROUTE_PATH}/plantings/* ]]; then
     fi
 fi
 
+if [[ "$METHOD" == "GET" && "$P" == ${ROUTE_PATH}/quick/* ]]; then
+    NAME="${P#${ROUTE_PATH}/quick/}"
+    if [[ -f "quick/$NAME" ]]; then
+        meta_out headers="$(jo "content-type"="text/html")"
+        # exec ./render-apage.nu "plantings/$NAME.md"
+        jo stack_id="$NAME" "content"="$(cat quick/$NAME)" | minijinja-cli -f json quick.html -
+        exit
+    fi
+fi
+
 if [[ "$METHOD" == "GET" && "$P" == "${ROUTE_PATH}/styles.css" ]]; then
     meta_out headers="$(jo "content-type"="text/css")"
     exec cat styles.css
