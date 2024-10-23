@@ -13,6 +13,16 @@ If you've thoughts on this topic, there's a discussion going on
 
 ### Updates (the stream, to be incorporated)
 
+#### 2024 Oct 23:
+
+The German government funds open source software development initiatives with its [Sovereign Tech Fund](https://www.sovereigntechfund.de/programs)
+
+[Open Source Pledge](https://opensourcepledge.com) urges companies to
+financially support open source maintainers. Some initial thoughts: good on
+[@sentry](https://x.com/getsentry) and [can relying on people to "do the right
+thing", for its own sake,
+work](https://x.com/cablelounger/status/1846173482184245343)?
+
 #### 2024 Oct 09:
 
 [Maggie Appleton](https://maggieappleton.com/about)'s Land of opportunity
