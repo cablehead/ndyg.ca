@@ -2,7 +2,7 @@ plantings:
 
 - name: xs (cross-stream)
   url: https://github.com/cablehead/xs
-  status: 'WIP <span style="font-family: monospace">[<span style="color: green">████████████████</span> 80%]</span>'
+  status: Useful, and still sketching
 
   description: An event stream store for personal, local-first use. Kinda like the <a href="https://sqlite.org/cli.html">sqlite3 cli</a>, but specializing in the <a href="https://martinfowler.com/eaaDev/EventSourcing.html">event sourcing</a> use case
   image:
