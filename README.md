@@ -1,6 +1,6 @@
-Previously this site was rendered using
-[Bash](https://x.com/badcop_/status/1785466291660431387) /
-[http-sh](https://github.com/cablehead/http-sh)
+[Previously](https://github.com/cablehead/ndyg.ca/tree/archive-http-sh) this
+site was rendered using [Bash](https://x.com/badcop_/status/1785466291660431387)
+/ [http-sh](https://github.com/cablehead/http-sh)
 
 It's now rendered using [Nushell](https://www.nushell.sh) /
 [http-nu](https://github.com/cablehead/http-nu)
