@@ -1,0 +1,69 @@
+plantings:
+
+- name: xs (cross-stream)
+  url: https://github.com/cablehead/xs
+  status: Useful, and still sketching
+
+  description: An event stream store for personal, local-first use. Kinda like the <a href="https://sqlite.org/cli.html">sqlite3 cli</a>, but specializing in the <a href="https://martinfowler.com/eaaDev/EventSourcing.html">event sourcing</a> use case
+  image:
+    path: ./crossing-the-streams.png
+
+- name: Stacks
+  url: https://stacks.cross.stream
+  status: Useful, and still sketching
+  description: A humble clipboard manager aspiring to elevate the depth of our conversations. 🤫 don't tell anyone, but this is actually the UI for <a href="https://github.com/cablehead/xs">xs</a>.
+  image:
+    path: ./stacks.png
+  sub:
+  - name: Enchanted Animal Rescue
+    url: ./projects/enchanted-animal-rescue
+    status: 'WIP <span style="font-family: monospace">[<span style="color: green">████</span>............ 20%]</span>'
+    description: Rescue forest animals while exercising your clipboard manager skills
+    image:
+      path: ./enchanted-animal-rescue.png
+
+
+- name: '"Small Tools"'
+  url: https://gist.github.com/cablehead/efbe67fb90b8dde21a7c885f91f3f75d
+  status: <a href="https://x.com/jessmartin/status/1772638111534658040">forever quest</a>
+  description: What would it look like if we just used small tools, everywhere?
+  sub:
+  - name: http-sh
+    url: https://github.com/cablehead/http-sh
+    status: Useful, and still sketching
+    description: Attach Bash scripts to a HTTP interface
+    image:
+      path: ./http-sh.png
+  - name: chat-app
+    url: ./projects/chat-app
+    status: Experiment
+    description: How would you build a service exclusively with small tools, where the unit of tool is a CLI command, and <a href="https://x.com/badcop_/status/1785466291660431387">Bash</a> is the coordination language?
+    image:
+      path: ./chat-app.png
+
+- name: nushell
+  url: https://www.nushell.sh
+  status: Tagging along!
+  description: A better way to compose Small Tools
+  sub:
+  - name: nu_plugin_from_sse
+    url: https://github.com/cablehead/nu_plugin_from_sse
+    status: Useful
+    description: Nu plugin to parse a server sent events stream to structured records
+  - name: nu_plugin_from_http
+    url: https://github.com/cablehead/nu_plugin_http
+    status: Sketching
+    description: Nu http commands, as a plugin + `http serve ./sock { .. }`
+  - name: discord.nu
+    url: https://github.com/cablehead/discord.nu
+    status: Sketching
+    description: Nushell discord client for bots and things
+    image:
+      path: ./discord_nu.png
+
+- name: Platform Quest
+  url: https://platform-quest.cross.stream
+  status: Tagging along with the remarkable <a href="https://github.com/BlackVegetable">@DrSpendlove</a>
+  description: Building inclusive teams and bringing the best out of people with play and humor
+  image:
+    path: ./platform-quest.png

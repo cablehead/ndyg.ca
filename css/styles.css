@@ -1,0 +1,301 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.6em;
+}
+
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.2em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+/* end reset.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-optical-sizing: auto;
+}
+
+a {
+  color: #007bff; /* Blue for links */
+  text-decoration: underline;
+}
+
+pre,
+code {
+  background-color: #333; /* Darker gray for code blocks */
+  color: #e0e0e0; /* Light gray text for code */
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+header {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  all: unset;
+  display: block;
+  font-size: 1.5em;
+  font-weight: 700;
+  flex: 1;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  header {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 2em;
+  }
+}
+
+:root {
+  --base03: #002b36;
+  --base02: #073642;
+  --base01: #586e75;
+  --base00: #657b83;
+  --base0: #839496;
+  --base1: #93a1a1;
+  --base2: #eee8d5;
+  --base3: #fdf6e3;
+  --yellow: #b58900;
+  --orange: #cb4b16;
+  --red: #dc322f;
+  --magenta: #d33682;
+  --violet: #6c71c4;
+  --blue: #268bd2;
+  --cyan: #2aa198;
+  --green: #859900;
+
+  --paragraph-color: var(--base0);
+  --accent-paragraph-color: var(--base1);
+  --headline-color: var(--base00);
+  --background-color: var(--base3);
+  --link-color: var(--blue);
+  --shadow-color: rgba(0, 0, 0, 0.7);
+}
+
+html[data-theme="dark"] {
+  --paragraph-color: var(--base0);
+  --accent-paragraph-color: var(--base1);
+  --headline-color: var(--base1);
+  --background-color: var(--base03);
+  --link-color: var(--blue);
+  --shadow-color: rgba(100, 255, 255, 0.7);
+}
+
+iframe,
+img,
+input,
+select,
+textarea {
+  height: auto;
+  max-width: 100%;
+}
+
+img {
+  border-radius: 5px;
+}
+
+button,
+input,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  background-color: transparent;
+  border: 1px solid WindowFrame;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--background-color);
+  color: var(--paragraph-color);
+  font-family: "Urbanist", sans-serif;
+}
+
+html[data-theme="dark"] .d-block-light {
+  display: none;
+}
+
+html[data-theme="light"] .d-block-dark {
+  display: none;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+a:hover {
+  color: var(--headline-color);
+}
+
+a.badge {
+  text-decoration: none;
+  border-bottom: none;
+  display: inline-flex;
+}
+
+small {
+  font-size: 0.8rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  color: var(--headline-color);
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+}
+
+ul {
+  padding-left: 3ch;
+  margin-top: 0em;
+  margin-bottom: 0.6em;
+}
+
+blockquote {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2ch;
+  border-left: 4px solid var(--headline-color);
+  padding-left: 2ch;
+  padding-right: 2ch;
+  font-style: italic;
+}
+
+.image-xkcd {
+  margin: 0 auto;
+  max-height: 300px;
+}
+
+.epistemic-disclosure {
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted;
+  display: inline-block;
+}
+
+.epistemic-disclosure:hover::before {
+  color: var(--background-color);
+  background-color: var(--paragraph-color);
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 60%;
+  left: 40px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+/* plantings.css */
+em.status {
+  font-size: 0.8rem;
+  border-radius: 0.4em;
+  display: inline-block;
+  padding: 0.1em 0.4em;
+  border: 1px dotted var(--shadow-color);
+  white-space: nowrap;
+}
+
+.planting {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.sub-planting {
+  display: flex;
+  align-items: stretch;
+  gap: 1em;
+}
+
+.sub-planting > :nth-child(1) {
+  align-self: stretch;
+  flex: 2;
+}
+
+.sub-planting > :nth-child(2) {
+  align-self: stretch;
+  flex: 3;
+}

@@ -1,0 +1,83 @@
+{% extends "base.html" %} {% block main %}
+
+<p style="margin-top: 4em">👋 I'm @ndyg!</p>
+
+<p>I'm really glad you're here.</p>
+
+<p>Gosh, we've made a mess of things, haven't we?</p>
+
+<p>
+  I love tinkering and cobbling together
+  <a href="https://gist.github.com/cablehead/efbe67fb90b8dde21a7c885f91f3f75d"
+    >&quot;Small Tools&quot;</a
+  >. Some people call that <a href="https://utopia.rosano.ca/interoperable-visions/">interop</a>.
+  I'd like to work with others to craft and
+  <a href="https://x.com/cablelounger/status/1791511773855559887">seriously</a> use these tools to
+  foster <a href="https://maggieappleton.com/cozy-web">cosy communities</a> and good faith
+  communication, with the goal of exploring life's intricacies and uplifting everyone's journey.
+</p>
+<p>
+  Which is to say, I'd like to work with <i>you</i> to make things better. And .. what does
+  <a href="https://x.com/cablelounger/status/1793271556354801983"> "make things better"</a>
+  even mean?
+</p>
+
+<p>
+If any of that resonates, you can find me in the spaces listed above—those are
+where I’m most comfortable hanging out, so feel free to choose whichever works
+best for you.
+</p>
+
+<h3>
+  <a
+    href="#some-of-the-things-im-thinking-about"
+    aria-hidden="true"
+    class="anchor"
+    id="xs-some-of-the-things-im-thinking-about"
+  ></a
+  >Some of the things I'm thinking about...
+</h3>
+
+<ul>
+  <li>
+    <a href="/plantings/how-do-you-make-a-living">How do you make a living?</a>
+  </li>
+</ul>
+
+<h3>
+  <a
+    href="#some-of-the-things-im-working-on"
+    aria-hidden="true"
+    class="anchor"
+    id="xs-some-of-the-things-im-working-on"
+  ></a
+  >Some of the things I'm working on...
+</h3>
+
+<div class="planting">
+  <div class="planting">
+    {% for planting in plantings %} {% include 'planting_tpl.html' %} {% endfor %}
+  </div>
+</div>
+
+<p>
+  <a href="https://cross.stream">cross.stream</a>: a communal space to hack and share:
+  <em>Status: TBD</em>
+</p>
+<ul>
+  <li>
+    User facing
+    <ul>
+      <li>Digital Garden</li>
+      <li>Build your own tools</li>
+    </ul>
+  </li>
+  <li>
+    Infrastructure
+    <ul>
+      <li>Stream driven development (event source)</li>
+      <li>Small tools (~= embrace the shell)</li>
+    </ul>
+  </li>
+</ul>
+{% endblock %}

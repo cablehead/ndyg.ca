@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="/icon.ico" type="image/x-icon" />
+
+    <title>@ndyg</title>
+    <meta property="og:title" content="@ndyg" />
+
+    <script>
+      const ONE_HOUR = 3600000;
+      const currentTime = Date.now();
+      const getSystemTheme = () =>
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      let theme, expiry;
+      try {
+        ({ theme, expiry } = JSON.parse(localStorage.getItem("theme") || "{}"));
+      } catch {
+        expiry = 0;
+      }
+      if (!expiry || currentTime - expiry >= ONE_HOUR) {
+        theme = getSystemTheme();
+      }
+      document.documentElement.setAttribute("data-theme", theme);
+    </script>
+
+    <link rel="stylesheet" href="/css/styles.css?v=1.1" />
+  </head>
+
+  <body>
+    <div style="padding-left: 1em; padding-right: 1em">
+      <header>
+        <h1>@<a href="/">ndyg</a></h1>
+        {% include 'socials.html' %}
+      </header>
+      <div>{% block main %}{% endblock %}</div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll("em").forEach((el) => {
+          if (el.textContent.startsWith("Status:")) {
+            el.classList.add("status");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
