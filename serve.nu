@@ -20,11 +20,11 @@ def do_404 [req: record] {
     }
 
     {method: "GET"} if ($req.path | str starts-with "/css/") => {
-      .static "." $req.path
+      .static (pwd) $req.path
     }
 
     {method: "GET"} if ($req.path | str starts-with "/static/") => {
-      .static "." $req.path
+      .static (pwd) $req.path
     }
 
     _ => (do_404 $req)
