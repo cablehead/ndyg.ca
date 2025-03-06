@@ -19,6 +19,10 @@ def do_404 [req: record] {
       }
     }
 
+    {method: "GET"} if ($req.path | str starts-with "/projects/") => {
+      .static (pwd) $req.path
+    }
+
     {method: "GET"} if ($req.path | str starts-with "/css/") => {
       .static (pwd) $req.path
     }
