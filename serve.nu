@@ -31,6 +31,10 @@ def do_404 [req: record] {
       .static (pwd) $req.path
     }
 
+    {method: "GET" , path: "/_health"} => {
+      "ok"
+    }
+
     _ => (do_404 $req)
   }
 }
