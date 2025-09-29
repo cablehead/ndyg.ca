@@ -35,7 +35,7 @@ plantings:
     image:
       path: ./http-sh.png
   - name: chat-app
-    url: ./projects/chat-app
+    url: https://chat-app.cross.stream
     status: Experiment
     description: How would you build a service exclusively with small tools, where the unit of tool is a CLI command, and <a href="https://x.com/badcop_/status/1785466291660431387">Bash</a> is the coordination language?
     image:
